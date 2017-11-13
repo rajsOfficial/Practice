@@ -1,12 +1,11 @@
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.regex.*;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 public class PhoneBook {
 	Scanner in = new Scanner(System.in);
 	HashMap<Integer, Contact> map = new HashMap<>();
-	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+	SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
 
 	public void Creating() {
 		System.out.println("\tCreating a contact");

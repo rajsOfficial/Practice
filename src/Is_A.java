@@ -1,4 +1,4 @@
-3class P
+class P
  
 {
  
@@ -45,11 +45,11 @@ c.m2();  // compiles fine
  
 //case 3*/
  
-P  p = new C();
+P  p1 = new C();
  
-p.m1();   // compiles fine
+p1.m1();   // compiles fine
  
-p.m2();  // Will get a compile time error as "Cannot find m2()"
+p1.m2();  // Will get a compile time error as "Cannot find m2()"
  
 //case 4
  
